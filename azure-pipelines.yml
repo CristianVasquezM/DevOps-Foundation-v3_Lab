@@ -6,7 +6,7 @@
 
 #pool:
 #  vmImage: ubuntu-latest
-
+pool: 'default'
 steps:
 - task: Gradle@3
   inputs:
